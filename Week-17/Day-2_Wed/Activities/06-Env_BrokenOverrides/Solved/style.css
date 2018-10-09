@@ -1,0 +1,9 @@
+p {
+    color: darkturquoise;
+    font-weight: bold;
+}
+
+p a{
+    color: turquoise;
+    background-color: slategrey;
+}

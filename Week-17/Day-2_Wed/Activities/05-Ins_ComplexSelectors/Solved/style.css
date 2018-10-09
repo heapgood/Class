@@ -1,0 +1,31 @@
+/* CSS Groups */
+/* Give multiple elements, classes, or ids the same style. */
+/* All h1 and h3 elements are underlined. */
+
+h1,
+h3 {
+    text-decoration: underline;
+}
+
+/* CSS Descendants */
+/* Style only elements or classes appearing nested inside another element or
+class. */
+/* Only change the color of anchor tags that are nested in the nav tag. */
+
+nav a{
+    color: limegreen;
+}
+
+/* CSS Specific Selectors */
+/* Select by tag and class. */
+/* All elements with welcome class are centered. */
+
+.welcome {
+    text-align: center;
+}
+
+/* Only paragraphs with the welcome class are styled with italics. */
+
+p.welcome{
+    font-style: italic;
+}
